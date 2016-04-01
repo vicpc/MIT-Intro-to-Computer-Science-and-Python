@@ -1,5 +1,8 @@
 class Queue(object):    
-    '''Initializes 1 attribute: a list to keep track of the queue's elements'''
+    '''
+    Queue class with methods for adding and removing elements. 
+    Will return a ValueError if the list is empty.
+    '''
 
     def __init__(self):
         '''Initializes 1 attribute: a list to keep track of the queue's elements'''
